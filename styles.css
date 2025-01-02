@@ -25,7 +25,6 @@
     color: white;
 }
 body {
-    overflow-x: hidden;
     background-image: url("images/background.svg");
     background-repeat: no-repeat;
 }
@@ -201,3 +200,81 @@ main {
     line-height: 2rem;
 }
 
+.tech_stack {
+    width: 713px;
+    height: 302px;
+    position: relative;
+    top: 20rem;
+    font-family: 'WixMadeforDisplay-Regular';
+    margin: auto;
+}
+.tech_stack > h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 40px;
+    font-family: 'WixMadeforDisplay-Regular';
+}
+.tech_stack_icons {
+    width: inherit;
+    display: flex;
+    column-gap: 56px;
+    row-gap: 40px;
+    flex-wrap: wrap;
+}
+.tech_stack_icons div.with_padding{
+    width: 49px;
+    height: 49px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    padding: 4px;
+    margin-right: 18px;
+}
+#js {
+    width: 49px;
+    height: 49px;
+    margin-right: 18px;
+}   
+.tech_container {
+    display: flex;
+    align-items: center;
+    width: max-content;
+}
+
+.testimonials {
+    width: 1082px;
+    position: relative;
+    top: 25rem;
+}
+.testimonials > h2 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'WixMadeforDisplay-Regular';
+    margin-bottom: 2rem;
+}
+.testimonials > .cards {
+    width: inherit;
+    display: flex;
+    column-gap: 58px;
+}
+.card {
+    width: 322px;
+    height: 443px;
+    background-color: white;
+}
+
+.hr {
+    border: 1px solid rgb(149, 132, 132);
+    margin: auto;
+    width: 10rem;
+    position: relative;
+}
+.hr1 {
+    top: 4rem;
+}
+.hr2 {
+    top: 15rem;
+}
+.hr3 {
+    top: 21rem;
+}
